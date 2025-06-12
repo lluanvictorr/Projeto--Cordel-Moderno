@@ -1,0 +1,139 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+:root{
+    --fonte01: sans-serif;
+    --fontetitulo: 'Oswald', sans-serif;
+    --fonteparagrafo: 'Lexend', sans-serif;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: rgb(172, 169, 112);
+    font-family: var(--fonte01);
+    
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center; 
+    font-size: 1.6em;
+
+}
+header > h1{
+    padding: 30px 0px 0px 0px;
+    font-family: var(--fontetitulo);
+    font-variant: small-caps;
+    font-size: 3em;
+ 
+
+}
+header > p{
+    padding-top: 20px;
+    font-family: var(--fontetitulo);
+    font-size: 1.3em;
+    
+}
+header a{
+    color: white;
+    font-weight: bolder;
+}
+header a:hover{
+    color: rgb(172, 169, 112);
+    text-decoration: none;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-family: var(--fonteparagrafo);
+    font-size: 3.5vw;
+    font-weight: bold;
+    line-height: 2em;
+    padding-left: 30px;
+
+}
+section.normal{
+    background-color:rgb(172, 169, 112) ; 
+    color: black;
+}
+
+
+
+section.imagem{
+    background-color: white;
+    color: black;
+    box-shadow: inset 5px 5px 25px 0px rgb(0, 0, 0);
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.imagem > p{
+    color: white;
+    background-color: rgba(172, 169, 112, 0.322) ;
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 2px 2px 1px black;
+    box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.267);
+}
+section#img01{
+    background-image: url(../imagens/pexels-roman-odintsov-4555321.jpg);
+    background-position:center center;
+    
+}
+
+section#img02{
+    background-image: url(../imagens/02.jpg);
+    background-position: center center;
+   
+}
+section#img03{
+    background-image: url(../imagens/01.jpg);
+    background-position: center center;
+    
+}
+section#img04{
+    background-image: url(../imagens/04.jpg);
+    background-position: center center;
+   
+    
+}
+section#img05{
+    background-image: url(../imagens/05.jpg);
+    background-position: center center;
+    
+}
+
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+footer  a{
+    font-variant: small-caps;
+    color: white;
+    font-weight:bold;
+
+}
+footer a:hover{
+    text-decoration: none;
+    color: rgb(172, 169, 112);
+    
+}
